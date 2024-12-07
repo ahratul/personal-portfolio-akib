@@ -60,7 +60,7 @@ export const NavBar = () => {
                 </a>
               </div>
               <div className="social-icon">
-                <a href="https://https://github.com/ahratul" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/ahratul" target="_blank" rel="noopener noreferrer">
                   <img src={navIcon2} alt="Github Icon" />
                 </a>
               </div>
