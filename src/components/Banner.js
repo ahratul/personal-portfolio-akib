@@ -56,7 +56,13 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Akib Hasan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IT Systems and Cloud Infrastructure Specialist", "DevOps Engineer", "Machine Learning Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>
+                    <span style={{ color: '#FFD700' }}>{`Hi! I'm Akib Hasan`} </span>
+                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "IT Systems and Cloud Infrastructure Specialist", "DevOps Engineer", "Machine Learning Engineer" ]'>
+                      <span className="wrap" style={{ color: '#FFD700' }}>{text}</span>
+                    </span>
+                  </h1>
+
                   <p>
                     Hi there! 👋 I am an experienced IT professional with over 5 years of diverse expertise in IT support, administration, network engineering, DevOps, and backend development. 🚀
                     I am currently wrapping up my Master’s in Communication Systems and Networking at Technische Hochschule Köln (just one course to go! 🎓). 
@@ -69,7 +75,7 @@ export const Banner = () => {
                       Let’s Connect <ArrowRightCircle size={25} />
                     </button>
                     <button 
-                      onClick={() => window.open('https://drive.google.com/file/d/17lX1G01VuHfvBZWdt6ACIb_r6ip2U1n-/view?usp=sharing', '_blank', 'noopener noreferrer')}
+                      onClick={() => window.open('https://drive.google.com/file/d/1Em-hq5c2L22Eyaek-57LBCCS9G8TsPHX/view?usp=sharing', '_blank', 'noopener noreferrer')}
                     >
                       View Resume <ArrowRightCircle size={25} />
                     </button>

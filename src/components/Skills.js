@@ -62,6 +62,26 @@ export const Skills = () => {
                   <h5>DevOps</h5>
                 </div>
                 <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Selenium</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Docker</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Level 1 Support</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Level 2 Support</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Level 3 Support</h5>
+                </div>
+                <div className="item">
                   <img src={meter3} alt="Image" />
                   <h5>Ansimble</h5>
                 </div>
@@ -110,7 +130,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Communication (Writing, Speaking)</h5>
+                  <h5>Communication (Writing, Speaking, Reading)</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />

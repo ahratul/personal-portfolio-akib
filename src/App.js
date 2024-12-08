@@ -9,7 +9,8 @@ import { Education } from "./components/Education";
 import  Applications  from "./components/Applications";
 import  {Publications}  from './components/Publications';
 import { References } from "./components/Reference";
-import { Contact } from "./components/Contact";
+import Contact from './components/Contact';
+
 import { Footer } from "./components/Footer";
 
 function App() {
