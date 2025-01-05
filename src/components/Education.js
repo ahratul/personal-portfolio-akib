@@ -36,7 +36,7 @@ export const Education = () => {
                     >
                       <Tab.Pane eventKey="masters">
                         <div className="education-item">
-                          <h4>Masters in Communication System and Networking, GPA: 2.55</h4>
+                          <h4>Masters in Communication System and Networking, GPA: 3</h4>
                           <p>
                             <strong>
                               Technische Hochschule Köln (2020 - Present)
